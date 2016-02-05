@@ -12,6 +12,32 @@ top: 50px;
 margin: auto;
 color: white;
 }
+#navBar{
+	position: absolute;
+	right: 0;
+top:40;
+padding: 20px;
+	display: flex;
+	justify-content:flex-end;
+}
+nav {
+	display: flex;
+display: inline-block;
+}
+nav ul{
+	/*margin: auto;*/
+	padding-left: 0;
+}
+nav li{
+float: left;
+padding-left: 10px;
+margin:auto;
+color: black;
+font-size: 20;
+}
+nav li:hover{
+text-decoration: underline;
+}
 .floatContainer{
 display: flex;
 background-color: DCE3E3;
